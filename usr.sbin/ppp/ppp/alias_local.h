@@ -14,7 +14,7 @@
     
      <updated several times by original author and Eivind Eklund>
 
-    $Id$
+    $OpenBSD: alias_local.h,v 1.5 2000/02/27 01:38:24 brian Exp $
 */
 #ifndef ALIAS_LOCAL_H
 #define ALIAS_LOCAL_H
