@@ -1,4 +1,4 @@
-/* $NetBSD$ */
+/* $OpenBSD: am79c930var.h,v 1.1.2.2 2001/10/31 03:22:41 nate Exp $ */
 
 /*-
  * Copyright (c) 1999 The NetBSD Foundation, Inc.

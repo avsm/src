@@ -1,4 +1,4 @@
-/*	$OpenBSD: com_commulti.c,v 1.1 2001/09/30 00:37:17 art Exp $	*/
+/*	$OpenBSD: com_commulti.c,v 1.1.4.1 2001/10/31 03:22:43 nate Exp $	*/
 /*
  * Copyright (c) 1997 - 1999, Jason Downs.  All rights reserved.
  *

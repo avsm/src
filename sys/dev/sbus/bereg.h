@@ -1,4 +1,4 @@
-/*	$OpenBSD: bereg.h,v 1.1 2001/08/20 22:47:08 jason Exp $	*/
+/*	$OpenBSD: bereg.h,v 1.1.4.1 2001/10/31 03:22:49 nate Exp $	*/
 /*	$NetBSD: bereg.h,v 1.4 2000/07/24 04:28:51 mycroft Exp $	*/
 
 /*-

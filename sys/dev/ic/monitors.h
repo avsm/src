@@ -1,3 +1,4 @@
+/* $OpenBSD: monitors.h,v 1.1.6.2 2001/10/31 03:22:42 nate Exp $ */
 /* $NetBSD$ */
 
 /*-

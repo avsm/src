@@ -1,4 +1,4 @@
-/*	$OpenBSD: if_hme_sbus.c,v 1.1 2001/08/21 16:19:50 jason Exp $	*/
+/*	$OpenBSD: if_hme_sbus.c,v 1.1.4.1 2001/10/31 03:22:49 nate Exp $	*/
 /*	$NetBSD: if_hme_sbus.c,v 1.6 2001/02/28 14:52:48 mrg Exp $	*/
 
 /*-

@@ -1,4 +1,4 @@
-/*	$OpenBSD: maxiradio.c,v 1.1 2001/10/04 20:25:28 gluk Exp $	*/
+/*	$OpenBSD: maxiradio.c,v 1.1.4.1 2001/10/31 03:22:46 nate Exp $	*/
 /* $RuOBSD: maxiradio.c,v 1.3 2001/10/02 10:45:53 pva Exp $ */
 
 /*
