@@ -1,4 +1,4 @@
-/*	$OpenBSD: uidswap.h,v 1.4.2.2 2001/02/19 17:19:42 jason Exp $	*/
+/*	$OpenBSD: uidswap.h,v 1.4.2.3 2001/03/21 19:46:32 jason Exp $	*/
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>
