@@ -1,4 +1,4 @@
-/*	$OpenBSD: cdboot.c,v 1.3 2003/04/17 12:15:51 mickey Exp $	*/
+/*	$OpenBSD: cdboot.c,v 1.3.2.1 2003/05/12 19:55:40 ho Exp $	*/
 
 /*
  * Copyright (c) 2003 Michael Shalayeff

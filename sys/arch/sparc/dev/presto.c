@@ -1,4 +1,4 @@
-/*	$OpenBSD: presto.c,v 1.1 2003/04/13 22:55:49 miod Exp $	*/
+/*	$OpenBSD: presto.c,v 1.1.2.1 2003/05/12 19:58:48 ho Exp $	*/
 /*
  * Copyright (c) 2003, Miodrag Vallat.
  * All rights reserved.
