@@ -1,4 +1,4 @@
-/*	$OpenBSD: autrivar.h,v 1.2 2001/11/26 18:10:52 mickey Exp $	*/
+/*	$OpenBSD: autrivar.h,v 1.2.2.1 2001/12/05 00:43:29 niklas Exp $	*/
 
 /*
  * Copyright (c) 2001 SOMEYA Yoshihiko and KUROSAWA Takahiro.
