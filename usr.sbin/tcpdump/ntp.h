@@ -1,6 +1,4 @@
-/*	$OpenBSD: ntp.h,v 1.4 1996/07/13 11:01:13 mickey Exp $	*/
-
-/* Header: ntp.h,v 1.3 95/05/04 17:52:49 mccanne Exp */
+/* $Header: ntp.h,v 1.3 95/05/04 17:52:49 mccanne Exp $ */
 
 /*
  * Based on ntp.h from the U of MD implementation
