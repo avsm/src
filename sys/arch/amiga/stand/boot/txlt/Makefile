@@ -1,7 +1,8 @@
-#	$OpenBSD: Makefile,v 1.1 1997/01/16 09:26:55 niklas Exp $
+#	$OpenBSD: Makefile,v 1.1.24.1 2002/06/11 03:34:58 art Exp $
 
 PROG=txlt
 NOMAN=noman
+DPADD=${LIBL}
 LDADD=-ll
 CLEANFILES+=txlt.c
 

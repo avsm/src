@@ -1,4 +1,4 @@
-/*	$OpenBSD: apio.c,v 1.2 2002/04/08 17:49:42 jason Exp $	*/
+/*	$OpenBSD: apio.c,v 1.2.4.1 2002/06/11 03:42:29 art Exp $	*/
 
 /*
  * Copyright (c) 2002 Jason L. Wright (jason@thought.net)

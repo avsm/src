@@ -1,4 +1,4 @@
-/*	$OpenBSD: varargs.h,v 1.1 2002/03/11 00:19:28 miod Exp $	*/
+/*	$OpenBSD: varargs.h,v 1.1.6.1 2002/06/11 03:35:37 art Exp $	*/
 
 #ifndef _MACHINE_VARARGS_H_
 #define	_MACHINE_VARARGS_H_

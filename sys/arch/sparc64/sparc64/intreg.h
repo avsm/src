@@ -1,4 +1,5 @@
-/*	$OpenBSD: clockreg.h,v 1.2 1998/12/15 05:52:30 smurph Exp $ */
+/*	$OpenBSD: intreg.h,v 1.1.4.1 2002/06/11 03:38:43 art Exp $	*/
+/*	$NetBSD: intreg.h,v 1.4 2000/06/24 04:21:05 eeh Exp $ */
 
 /*
  * Copyright (c) 1992, 1993
@@ -41,50 +42,22 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	@(#)clockreg.h	8.1 (Berkeley) 6/11/93
- */
-
-#include <machine/idprom.h>
-
-/*
- * Sun-4/Sun-4c/Sun-4m clock Mostek TOD clock.
+ *	@(#)intreg.h	8.1 (Berkeley) 6/11/93
  */
 
 /*
- * Mostek MK48T02 clock.
+ * All sun4u interrupts arrive as interrupt packets.  These packets
+ * consist of up to six (three on spitfires) quads.  The first one
+ * contains the interrupt number.  This is either the device ID
+ * or a pointer to the handler routine.
+ * 
+ * Device IDs are split into two parts: a 5-bit interrupt group number
+ * and a 5-bit interrupt number.  We ignore this distinction.
  *
- * The clock includes 2040 bytes of RAM, the last 32 of which serve to
- * identify the kind of Sun 4c this is.
- *
- * or, the Mostek MK48T08 clock.
- *
- * This is used in the Sun 4m machines. It is identical to the MK48T02,
- * except for being 8K in size. The following structure, then, describes
- * the last 2K of it's 8K address space. We simply ignore the first 6K..
  */
-struct clockreg {
-	char	cl_nvram[2008];		/* `free' nonvolatile memory */
-	struct	idprom	cl_idprom;	/* `id prom' */
-	volatile u_char	cl_csr;		/* control register */
-	volatile u_char	cl_sec;		/* seconds (0..59; BCD) */
-	volatile u_char	cl_min;		/* minutes (0..59; BCD) */
-	volatile u_char	cl_hour;	/* hour (0..23; BCD) */
-	volatile u_char	cl_wday;	/* weekday (1..7) */
-	volatile u_char	cl_mday;	/* day in month (1..31; BCD) */
-	volatile u_char	cl_month;	/* month (1..12; BCD) */
-	volatile u_char	cl_year;	/* year (0..99; BCD) */
-};
+#define MAXINTNUM	(1<<11)
 
-/* bits in cl_csr */
-#define	CLK_WRITE	0x80		/* want to write */
-#define	CLK_READ	0x40		/* want to read (freeze clock) */
-
-#define CLK_MK48T08_OFF	6*1024		/* struct clockreg is 6K forward */
-
-struct clockreg *clockreg;
-
-/*
- * Sun chose the year `68' as their base count, so that
- * cl_year==0 means 1968.
- */
-#define	YEAR0	68
+#ifndef _LOCORE
+struct intrhand;	/* This is in cpu.h if you need it. */
+void	send_softint(int cpu, int level, struct intrhand *ih);
+#endif

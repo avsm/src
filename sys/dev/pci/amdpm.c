@@ -1,4 +1,4 @@
-/*	$OpenBSD: amdpm.c,v 1.2 2002/06/05 22:49:49 mickey Exp $	*/
+/*	$OpenBSD: amdpm.c,v 1.2.2.1 2002/06/11 03:42:24 art Exp $	*/
 
 /*-
  * Copyright (c) 2002 The NetBSD Foundation, Inc.

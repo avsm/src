@@ -1,4 +1,4 @@
-/*	$OpenBSD: conf.h,v 1.1 2002/06/08 15:47:33 miod Exp $	*/
+/*	$OpenBSD: conf.h,v 1.1.2.1 2002/06/11 03:37:22 art Exp $	*/
 
 #include <sys/conf.h>
 

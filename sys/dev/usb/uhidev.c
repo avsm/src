@@ -1,4 +1,4 @@
-/*	$OpenBSD: uhidev.c,v 1.3 2002/05/09 15:06:29 nate Exp $	*/
+/*	$OpenBSD: uhidev.c,v 1.3.2.1 2002/06/11 03:42:30 art Exp $	*/
 /*	$NetBSD: uhidev.c,v 1.5 2002/02/27 01:30:50 augustss Exp $	*/
 
 /*
