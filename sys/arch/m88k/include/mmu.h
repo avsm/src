@@ -1,4 +1,4 @@
-/*	$OpenBSD: mmu.h,v 1.2 2004/05/23 20:52:15 miod Exp $ */
+/*	$OpenBSD: mmu.h,v 1.2.2.1 2004/06/05 23:09:48 niklas Exp $ */
 
 /*
  * This file bears almost no resemblance to the original m68k file,

@@ -1,4 +1,4 @@
-/*	$OpenBSD: profile.h,v 1.1 2004/04/29 06:25:34 miod Exp $ */
+/*	$OpenBSD: profile.h,v 1.1.2.1 2004/06/05 23:09:48 niklas Exp $ */
 /*
  * Copyright (c) 1996 Nivas Madhur
  * Copyright (c) 1992, 1993

@@ -1,4 +1,4 @@
-/*	$OpenBSD: rfx.c,v 1.4 2004/03/01 22:27:09 miod Exp $	*/
+/*	$OpenBSD: rfx.c,v 1.4.4.1 2004/06/05 23:10:58 niklas Exp $	*/
 
 /*
  * Copyright (c) 2004, Miodrag Vallat.

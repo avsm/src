@@ -1,4 +1,4 @@
-/*	$OpenBSD: ehci_pci.c,v 1.3 2004/05/30 01:25:17 tedu Exp $ */
+/*	$OpenBSD: ehci_pci.c,v 1.3.2.1 2004/06/05 23:12:49 niklas Exp $ */
 /*	$NetBSD: ehci_pci.c,v 1.15 2004/04/23 21:13:06 itojun Exp $	*/
 
 /*

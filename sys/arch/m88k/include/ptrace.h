@@ -1,4 +1,4 @@
-/*	$OpenBSD: ptrace.h,v 1.1 2004/04/26 12:34:05 miod Exp $ */
+/*	$OpenBSD: ptrace.h,v 1.1.2.1 2004/06/05 23:09:48 niklas Exp $ */
 /*
  * Copyright (c) 1999, Steve Murphree, Jr.
  * Copyright (c) 1992, 1993

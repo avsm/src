@@ -1,4 +1,4 @@
-/*	$OpenBSD: mediabay.c,v 1.1 2004/05/10 21:29:53 drahn Exp $	*/
+/*	$OpenBSD: mediabay.c,v 1.1.2.1 2004/06/05 23:10:52 niklas Exp $	*/
 /*	$NetBSD: mediabay.c,v 1.9 2003/07/15 02:43:29 lukem Exp $	*/
 
 /*-

@@ -1,4 +1,4 @@
-/*	$OpenBSD: ansi.h,v 1.1 2004/04/26 12:34:05 miod Exp $	*/
+/*	$OpenBSD: ansi.h,v 1.1.2.1 2004/06/05 23:09:47 niklas Exp $	*/
 /*-
  * Copyright (c) 1990, 1993
  *	The Regents of the University of California.  All rights reserved.
