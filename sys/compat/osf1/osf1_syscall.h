@@ -1,4 +1,4 @@
-/*	$OpenBSD: osf1_syscall.h,v 1.6.4.1 2001/05/14 22:05:12 niklas Exp $	*/
+/*	$OpenBSD: osf1_syscall.h,v 1.6.4.2 2001/10/31 03:11:46 nate Exp $	*/
 
 /*
  * System call numbers.

@@ -1,4 +1,4 @@
-/*	$OpenBSD: bsdos_syscalls.c,v 1.6.2.2 2001/07/04 10:39:11 niklas Exp $	*/
+/*	$OpenBSD: bsdos_syscalls.c,v 1.6.2.3 2001/10/31 03:11:45 nate Exp $	*/
 
 /*
  * System call names.

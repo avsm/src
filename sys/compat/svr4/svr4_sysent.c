@@ -1,4 +1,4 @@
-/*	$OpenBSD: svr4_sysent.c,v 1.26.4.2 2001/07/04 10:39:47 niklas Exp $	*/
+/*	$OpenBSD: svr4_sysent.c,v 1.26.4.3 2001/10/31 03:11:47 nate Exp $	*/
 
 /*
  * System call switch table.
