@@ -1,4 +1,4 @@
-/*	$OpenBSD: uba_dma.c,v 1.1 2000/04/27 03:14:51 bjc Exp $	*/
+/*	$OpenBSD: uba_dma.c,v 1.1.8.1 2001/05/14 21:38:38 niklas Exp $	*/
 /* $NetBSD: uba_dma.c,v 1.2 1999/06/20 00:59:55 ragge Exp $ */
 
 /*-

@@ -1,4 +1,4 @@
-/*	$OpenBSD: crx.c,v 1.1 2000/04/27 01:10:10 bjc Exp $	*/
+/*	$OpenBSD: crx.c,v 1.1.8.1 2001/05/14 21:38:46 niklas Exp $	*/
 /*	$NetBSD: crx.c,v 1.4 2000/01/24 02:40:33 matt Exp $	*/
 /*
  * Copyright (c) 1988 Regents of the University of California.
