@@ -1,4 +1,4 @@
-/*	$Id$ */
+/*	$OpenBSD: vme.h,v 1.3 1996/04/28 11:03:34 deraadt Exp $ */
 
 /*
  * Copyright (c) 1995 Theo de Raadt
