@@ -1,3 +1,4 @@
+/*	$OpenBSD: apic.c,v 1.1.2.2 2001/07/15 15:10:54 ho Exp $	*/
 /* $NetBSD: apic.c,v 1.1.2.2 2000/02/21 18:51:00 sommerfeld Exp $ */
 
 /*-
