@@ -1,4 +1,4 @@
-#	$Id: Makefile.inc,v 1.1.1.1 1995/10/18 08:37:34 deraadt Exp $
+#	$OpenBSD: Makefile.inc,v 1.3 1996/04/25 21:28:15 niklas Exp $
 
 # TOP is assumed to be defined by Makefile including this one.
 
