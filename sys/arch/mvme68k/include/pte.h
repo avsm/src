@@ -1,4 +1,4 @@
-/*	$Id$ */
+/*	$OpenBSD: pte.h,v 1.3 1996/04/28 10:56:29 deraadt Exp $ */
 
 /*
  * Copyright (c) 1988 University of Utah.

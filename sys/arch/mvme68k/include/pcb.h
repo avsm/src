@@ -1,4 +1,4 @@
-/*	$Id$ */
+/*	$OpenBSD: pcb.h,v 1.3 1996/04/28 10:56:24 deraadt Exp $ */
 
 /*
  * Copyright (c) 1988 University of Utah.

@@ -1,4 +1,4 @@
-/*	$Id$ */
+/*	$OpenBSD: nvram.h,v 1.3 1996/04/28 10:56:23 deraadt Exp $ */
 
 /*
  * Copyright (c) 1995 Theo de Raadt
