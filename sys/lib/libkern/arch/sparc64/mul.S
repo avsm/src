@@ -1,4 +1,4 @@
-/*	$OpenBSD: mul.S,v 1.2 2001/08/20 20:15:29 jason Exp $	*/
+/*	$OpenBSD: mul.S,v 1.2.4.1 2001/10/31 03:26:30 nate Exp $	*/
 /*	$NetBSD: mul.S,v 1.4 1998/11/26 19:08:21 eeh Exp $	*/
 
 /*

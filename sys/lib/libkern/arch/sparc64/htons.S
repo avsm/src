@@ -1,4 +1,4 @@
-/*	$OpenBSD: htons.S,v 1.2 2001/08/20 20:15:29 jason Exp $	*/
+/*	$OpenBSD: htons.S,v 1.2.4.1 2001/10/31 03:26:30 nate Exp $	*/
 /*
  * Copyright (c) 1992, 1993
  *	The Regents of the University of California.  All rights reserved.
