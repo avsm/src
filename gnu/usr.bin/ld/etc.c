@@ -1,5 +1,5 @@
+/* * $OpenBSD: etc.c,v 1.2 1998/03/26 19:46:18 niklas Exp $*/
 /*
- * $Id: etc.c,v 1.7 1994/06/10 15:16:04 pk Exp $
  */
 
 #include <err.h>
