@@ -1,4 +1,4 @@
-/*	$OpenBSD: sigdebug.h,v 1.2 2001/08/20 20:23:53 jason Exp $	*/
+/*	$OpenBSD: sigdebug.h,v 1.2.4.1 2001/10/31 03:07:59 nate Exp $	*/
 /*	$NetBSD: sigdebug.h,v 1.1 1999/01/09 23:12:36 eeh Exp $	*/
 
 /*

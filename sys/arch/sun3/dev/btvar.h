@@ -1,3 +1,4 @@
+/*	$OpenBSD: btvar.h,v 1.1.1.1.16.1 2001/10/31 03:07:59 nate Exp $ */
 /*	$NetBSD: btvar.h,v 1.1 1995/03/10 01:50:47 gwr Exp $ */
 
 /*

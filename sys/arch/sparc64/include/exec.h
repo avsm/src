@@ -1,4 +1,4 @@
-/*	$OpenBSD: exec.h,v 1.5 2001/08/19 20:20:45 art Exp $	*/
+/*	$OpenBSD: exec.h,v 1.5.4.1 2001/10/31 03:07:58 nate Exp $	*/
 /*	$NetBSD: elf_machdep.h,v 1.7 2001/02/11 00:18:49 eeh Exp $	*/
 
 #define ELF32_MACHDEP_ENDIANNESS	ELFDATA2MSB

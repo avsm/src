@@ -1,3 +1,5 @@
+/*	$OpenBSD: promboot.c,v 1.3.14.1 2001/10/31 03:08:00 nate Exp $	*/
+
 
 #include <sys/param.h>
 #include <sys/reboot.h>

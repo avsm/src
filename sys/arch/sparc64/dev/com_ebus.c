@@ -1,4 +1,4 @@
-/*	$OpenBSD: com_ebus.c,v 1.1 2001/09/29 03:13:49 art Exp $	*/
+/*	$OpenBSD: com_ebus.c,v 1.1.4.1 2001/10/31 03:07:57 nate Exp $	*/
 /*	$NetBSD: com_ebus.c,v 1.6 2001/07/24 19:27:10 eeh Exp $	*/
 
 /*

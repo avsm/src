@@ -1,4 +1,4 @@
-/*	$OpenBSD: profile.h,v 1.2 2001/09/02 14:37:37 art Exp $	*/
+/*	$OpenBSD: profile.h,v 1.2.4.1 2001/10/31 03:07:58 nate Exp $	*/
 
 /*
  * Copyright (c) 1992, 1993

@@ -1,4 +1,4 @@
-/*	$OpenBSD: consinit.c,v 1.4 2001/09/20 22:17:49 jason Exp $	*/
+/*	$OpenBSD: consinit.c,v 1.4.4.1 2001/10/31 03:07:57 nate Exp $	*/
 /*	$NetBSD: consinit.c,v 1.9 2000/10/20 05:32:35 mrg Exp $	*/
 
 /*-

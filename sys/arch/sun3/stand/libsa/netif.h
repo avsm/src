@@ -1,3 +1,5 @@
+/*	$OpenBSD: netif.h,v 1.2.16.1 2001/10/31 03:08:00 nate Exp $	*/
+
 
 #include "iodesc.h"
 

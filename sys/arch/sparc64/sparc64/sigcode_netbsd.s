@@ -1,4 +1,4 @@
-/*	$OpenBSD: sigcode_netbsd.s,v 1.1 2001/09/06 10:45:41 art Exp $	*/
+/*	$OpenBSD: sigcode_netbsd.s,v 1.1.4.1 2001/10/31 03:07:59 nate Exp $	*/
 /*
  * Copyright (c) 1996-2001 Eduardo Horvath
  * Copyright (c) 1996 Paul Kranenburg

@@ -1,3 +1,5 @@
+/*	$OpenBSD: devopen.c,v 1.2.14.1 2001/10/31 03:08:00 nate Exp $	*/
+
 
 #include <sys/param.h>
 #include <machine/mon.h>

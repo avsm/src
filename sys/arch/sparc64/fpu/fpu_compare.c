@@ -1,4 +1,4 @@
-/*	$OpenBSD: fpu_compare.c,v 1.2 2001/09/10 20:39:04 jason Exp $	*/
+/*	$OpenBSD: fpu_compare.c,v 1.2.4.1 2001/10/31 03:07:58 nate Exp $	*/
 /*	$NetBSD: fpu_compare.c,v 1.3 2001/08/26 05:46:31 eeh Exp $ */
 
 /*
