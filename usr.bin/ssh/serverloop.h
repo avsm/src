@@ -1,4 +1,4 @@
-/*	$OpenBSD: serverloop.h,v 1.2 2001/01/29 01:58:17 niklas Exp $	*/
+/*	$OpenBSD: serverloop.h,v 1.2.2.1 2001/02/16 20:13:13 jason Exp $	*/
 
 /*
  * Author: Tatu Ylonen <ylo@cs.hut.fi>

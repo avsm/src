@@ -1,3 +1,3 @@
-/* $OpenBSD: version.h,v 1.13 2000/10/16 09:38:45 djm Exp $ */
+/* $OpenBSD: version.h,v 1.13.2.1 2001/02/16 20:13:25 jason Exp $ */
 
-#define SSH_VERSION	"OpenSSH_2.3.0"
+#define SSH_VERSION	"OpenSSH_2.5.0"

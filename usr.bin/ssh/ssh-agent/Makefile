@@ -1,3 +1,5 @@
+#	$OpenBSD: Makefile,v 1.14.2.1 2001/02/16 20:13:29 jason Exp $
+
 .PATH:		${.CURDIR}/..
 
 PROG=	ssh-agent
