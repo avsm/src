@@ -1,4 +1,4 @@
-/*	$OpenBSD: rasops8.c,v 1.1 2001/03/18 04:32:45 nate Exp $ */
+/*	$OpenBSD: rasops8.c,v 1.1.4.1 2001/05/14 22:26:16 niklas Exp $ */
 /* 	$NetBSD: rasops8.c,v 1.8 2000/04/12 14:22:29 pk Exp $	*/
 
 /*-

@@ -1,4 +1,4 @@
-/* $OpenBSD: eephy.c,v 1.2 2001/04/14 09:36:20 deraadt Exp $ */
+/* $OpenBSD: eephy.c,v 1.2.4.1 2001/05/14 22:25:21 niklas Exp $ */
 /*
  * Principal Author: Parag Patel
  * Copyright (c) 2001

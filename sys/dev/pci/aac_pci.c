@@ -1,4 +1,4 @@
-/*	$OpenBSD: aac_pci.c,v 1.1 2000/11/10 09:39:36 niklas Exp $	*/
+/*	$OpenBSD: aac_pci.c,v 1.1.4.1 2001/05/14 22:25:31 niklas Exp $	*/
 
 /*-
  * Copyright (c) 2000 Michael Smith

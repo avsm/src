@@ -1,4 +1,4 @@
-/*	$OpenBSD: cy82c693reg.h,v 1.1 2000/06/09 17:10:58 chris Exp $	*/
+/*	$OpenBSD: cy82c693reg.h,v 1.1.6.1 2001/05/14 22:25:39 niklas Exp $	*/
 /* $NetBSD: cy82c693reg.h,v 1.1 2000/06/06 03:07:39 thorpej Exp $ */
 
 /*-
