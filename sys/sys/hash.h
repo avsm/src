@@ -1,4 +1,4 @@
-/*	$OpenBSD: hash.h,v 1.1 2002/06/11 22:27:03 ericj Exp $	*/
+/*	$OpenBSD: hash.h,v 1.1.4.1 2002/10/29 00:36:49 art Exp $	*/
 
 /*
  * Copyright (c) 2001 Tobias Weingartner
