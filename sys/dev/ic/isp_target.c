@@ -1,4 +1,4 @@
-/* $OpenBSD: isp_target.c,v 1.1 2000/02/20 21:22:40 mjacob Exp $ */
+/* $OpenBSD: isp_target.c,v 1.1.2.1 2000/02/21 22:29:05 niklas Exp $ */
 /*
  * Machine and OS Independent Target Mode Code for the Qlogic SCSI/FC adapters.
  *
