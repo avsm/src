@@ -23,7 +23,7 @@
  */
 
 #include "includes.h"
-RCSID("$OpenBSD: groupaccess.c,v 1.5.6.1 2003/09/16 20:50:43 brad Exp $");
+RCSID("$OpenBSD: groupaccess.c,v 1.5.6.2 2004/03/04 18:18:15 brad Exp $");
 
 #include "groupaccess.h"
 #include "xmalloc.h"
