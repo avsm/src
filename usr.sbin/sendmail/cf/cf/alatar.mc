@@ -30,6 +30,6 @@ divert(-1)
 #
 
 include(`../m4/cf.m4')dnl
-VERSIONID(`$OpenBSD: alatar.mc,v 1.1.1.1 1998/07/12 17:11:48 millert Exp $')dnl
-OSTYPE(bsd4.4)dnl
+VERSIONID(`$OpenBSD: alatar.mc,v 1.2 1998/08/15 18:17:10 millert Exp $')dnl
+OSTYPE(openbsd)dnl
 FEATURE(nullclient, gandalf.$m)dnl
