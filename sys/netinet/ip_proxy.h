@@ -1,4 +1,4 @@
-/*	$OpenBSD: ip_proxy.h,v 1.5 2000/02/01 19:29:59 kjell Exp $	*/
+/*	$OpenBSD: ip_proxy.h,v 1.5.2.1 2000/02/20 11:57:28 niklas Exp $	*/
 
 /*
  * Copyright (C) 1997-1998 by Darren Reed.
