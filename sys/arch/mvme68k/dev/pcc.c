@@ -1,4 +1,4 @@
-/*	$OpenBSD: pcc.c,v 1.5 1996/11/23 21:45:59 kstailey Exp $ */
+/*	$OpenBSD: pcc.c,v 1.5.14.1 2001/04/18 16:10:26 niklas Exp $ */
 
 /*
  * Copyright (c) 1995 Theo de Raadt
@@ -41,7 +41,6 @@
 #include <sys/user.h>
 #include <sys/tty.h>
 #include <sys/uio.h>
-#include <sys/callout.h>
 #include <sys/systm.h>
 #include <sys/kernel.h>
 #include <sys/syslog.h>

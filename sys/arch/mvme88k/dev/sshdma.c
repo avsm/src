@@ -1,4 +1,4 @@
-/*	$OpenBSD: sshdma.c,v 1.3 2001/03/09 05:44:39 smurph Exp $	*/
+/*	$OpenBSD: sshdma.c,v 1.3.2.1 2001/04/18 16:11:03 niklas Exp $	*/
 
 /*
  * Copyright (c) 1996 Nivas Madhur

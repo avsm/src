@@ -1,4 +1,4 @@
-/* $OpenBSD: osf1_locore.s,v 1.1 2000/08/12 20:10:31 ericj Exp $ */
+/* $OpenBSD: osf1_locore.s,v 1.1.4.1 2001/04/18 16:00:26 niklas Exp $ */
 /* $NetBSD$ */
 
 /*

@@ -1,4 +1,4 @@
-/*	$OpenBSD: crt.c,v 1.2 2001/02/01 03:38:23 smurph Exp $ */
+/*	$OpenBSD: crt.c,v 1.2.2.1 2001/04/18 16:11:48 niklas Exp $ */
 
 #include <sys/types.h>
 #include <machine/prom.h>

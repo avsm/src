@@ -1,3 +1,4 @@
+/*	$OpenBSD: float.h,v 1.2.12.1 2001/04/18 16:07:31 niklas Exp $	*/
 /*	$NetBSD: float.h,v 1.8 1995/06/20 20:45:37 jtc Exp $	*/
 
 /*
