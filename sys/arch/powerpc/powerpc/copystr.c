@@ -1,4 +1,4 @@
-/*	$OpenBSD: copystr.c,v 1.4 2001/06/24 05:05:22 drahn Exp $	*/
+/*	$OpenBSD: copystr.c,v 1.4.4.1 2002/10/29 00:28:08 art Exp $	*/
 
 /*-
  * Copyright (C) 1995 Wolfgang Solfrank.

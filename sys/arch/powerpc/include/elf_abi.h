@@ -1,4 +1,4 @@
-/*	$OpenBSD: elf_abi.h,v 1.1 2000/01/24 04:03:23 rahnds Exp $ */
+/*	$OpenBSD: elf_abi.h,v 1.1.12.1 2002/10/29 00:28:08 art Exp $ */
 
 /*
  * Copyright (c) 1996 Per Fogelstrom

@@ -1,4 +1,4 @@
-/*	$OpenBSD: creatorreg.h,v 1.5 2002/07/29 06:21:45 jason Exp $	*/
+/*	$OpenBSD: creatorreg.h,v 1.5.4.1 2002/10/29 00:28:11 art Exp $	*/
 
 /*
  * Copyright (c) 2002 Jason L. Wright (jason@thought.net)

@@ -1,4 +1,4 @@
-/*	$OpenBSD: cgtworeg.h,v 1.1 2002/08/12 10:44:04 miod Exp $	*/
+/*	$OpenBSD: cgtworeg.h,v 1.1.4.1 2002/10/29 00:28:09 art Exp $	*/
 /*	$NetBSD: cgtworeg.h,v 1.3 1995/10/04 00:21:27 pk Exp $ */
 
 /*
