@@ -1,4 +1,4 @@
-/*	$OpenBSD: ultrix_syscallargs.h,v 1.7 1999/06/07 07:18:37 deraadt Exp $	*/
+/*	$OpenBSD: ultrix_syscallargs.h,v 1.7.4.1 2001/07/04 10:39:52 niklas Exp $	*/
 
 /*
  * System call argument lists.

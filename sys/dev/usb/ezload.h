@@ -1,5 +1,5 @@
-/*	$OpenBSD: ezload.h,v 1.2.2.1 2001/05/14 22:26:18 niklas Exp $ */
-/*	$NetBSD: ezload.h,v 1.1 2001/01/02 22:24:00 augustss Exp $	*/
+/*	$OpenBSD: ezload.h,v 1.2.2.2 2001/07/04 10:43:39 niklas Exp $ */
+/*	$NetBSD: ezload.h,v 1.2 2001/01/18 20:28:23 jdolecek Exp $	*/
 
 /*
  * Copyright (c) 2000 The NetBSD Foundation, Inc.
