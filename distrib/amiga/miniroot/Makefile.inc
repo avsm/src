@@ -1,0 +1,5 @@
+#	$OpenBSD: Makefile.inc,v 1.4 2001/01/19 15:01:23 jj Exp $
+
+IMAGESIZE=		10240
+NEWFSOPTS=		-i 2048
+NEWFS_WILL_FAIL=	true
