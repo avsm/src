@@ -1,4 +1,4 @@
-/*	$OpenBSD: spif.c,v 1.2 2002/01/13 04:13:53 jason Exp $	*/
+/*	$OpenBSD: spif.c,v 1.2.2.1 2002/01/31 22:55:39 niklas Exp $	*/
 
 /*
  * Copyright (c) 1999-2002 Jason L. Wright (jason@thought.net)

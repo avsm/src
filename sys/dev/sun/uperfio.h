@@ -1,4 +1,4 @@
-/*	$OpenBSD: uperfio.h,v 1.1 2002/01/31 18:35:19 jason Exp $	*/
+/*	$OpenBSD: uperfio.h,v 1.1.2.1 2002/01/31 22:55:39 niklas Exp $	*/
 
 /*
  * Copyright (c) 2002 Jason L. Wright (jason@thought.net)

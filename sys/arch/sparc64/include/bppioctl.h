@@ -1,4 +1,4 @@
-/*	$OpenBSD: bppioctl.h,v 1.1 2002/01/12 20:19:40 jason Exp $	*/
+/*	$OpenBSD: bppioctl.h,v 1.1.2.1 2002/01/31 22:55:24 niklas Exp $	*/
 
 /*
  * Copyright (c) 1998 Iain Hibbert
