@@ -1,6 +1,6 @@
-/*	$OpenBSD: if_ie.h,v 1.3.4.1 2003/06/07 11:13:16 ho Exp $ */
+/*	$OpenBSD: if_ie.h,v 1.3.4.2 2004/02/19 10:49:06 niklas Exp $ */
 
-/* Copyright (c) 1998 Steve Murphree, Jr. 
+/* Copyright (c) 1998 Steve Murphree, Jr.
  * Copyright (c) 1995 Theo de Raadt
  * All rights reserved.
  *

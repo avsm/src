@@ -1,4 +1,4 @@
-/*	$OpenBSD: asm.h,v 1.1 2004/02/01 05:09:49 drahn Exp $	*/
+/*	$OpenBSD: asm.h,v 1.1.2.1 2004/02/19 10:48:01 niklas Exp $	*/
 /*	$NetBSD: asm.h,v 1.4 2001/07/16 05:43:32 matt Exp $	*/
 
 /*

@@ -1,4 +1,4 @@
-/*	$OpenBSD: pte.h,v 1.1 2004/02/01 05:09:49 drahn Exp $	*/
+/*	$OpenBSD: pte.h,v 1.1.2.1 2004/02/19 10:48:02 niklas Exp $	*/
 /*	$NetBSD: pte.h,v 1.6 2003/04/18 11:08:28 scw Exp $	*/
 
 /*

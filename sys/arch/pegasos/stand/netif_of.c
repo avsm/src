@@ -1,4 +1,4 @@
-/*	$OpenBSD: netif_of.c,v 1.1 2003/10/31 03:54:34 drahn Exp $	*/
+/*	$OpenBSD: netif_of.c,v 1.1.2.1 2004/02/19 10:49:56 niklas Exp $	*/
 /*	$NetBSD: netif_of.c,v 1.1 1997/04/16 20:29:19 thorpej Exp $	*/
 
 /*
