@@ -1,4 +1,4 @@
-/*	$OpenBSD: ntfs_ihash.c,v 1.3 2003/06/02 23:28:20 millert Exp $	*/
+/*	$OpenBSD: ntfs_ihash.c,v 1.3.2.1 2003/06/07 10:47:03 ho Exp $	*/
 /*	$NetBSD: ntfs_ihash.c,v 1.1 2002/12/23 17:38:32 jdolecek Exp $	*/
 
 /*
