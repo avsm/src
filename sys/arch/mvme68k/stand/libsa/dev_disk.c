@@ -1,4 +1,4 @@
-/*	$Id$ */
+/*	$OpenBSD: dev_disk.c,v 1.3 1996/04/28 10:49:00 deraadt Exp $ */
 
 /*
  * Copyright (c) 1993 Paul Kranenburg
