@@ -1,3 +1,5 @@
+/*	$OpenBSD: config.h,v 1.2.8.1 2001/10/31 03:01:20 nate Exp $	*/
+
 
 /*
  * Copyright (c) 1995 Theo de Raadt

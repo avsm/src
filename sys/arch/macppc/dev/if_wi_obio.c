@@ -1,4 +1,4 @@
-/*	$OpenBSD: if_wi_obio.c,v 1.3 2001/09/19 20:18:57 miod Exp $	*/
+/*	$OpenBSD: if_wi_obio.c,v 1.3.4.1 2001/10/31 03:01:15 nate Exp $	*/
 
 /*
  * Copyright (c) 1997, 1998, 1999

@@ -1,3 +1,5 @@
+/*	$OpenBSD: etherfun.h,v 1.1.1.1.14.1 2001/10/31 03:01:20 nate Exp $	*/
+
 /*
  *
  * Copyright (c) 1995 Charles D. Cranor and Seth Widoff

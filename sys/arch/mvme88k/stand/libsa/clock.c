@@ -1,3 +1,5 @@
+/*	$OpenBSD: clock.c,v 1.2.8.1 2001/10/31 03:01:20 nate Exp $	*/
+
 
 #include <sys/types.h>
 #include <machine/prom.h>

@@ -1,3 +1,3 @@
-/*	$OpenBSD: bat.h,v 1.1 2001/09/01 15:49:06 drahn Exp $	*/
+/*	$OpenBSD: bat.h,v 1.1.4.1 2001/10/31 03:01:15 nate Exp $	*/
 
 #include <powerpc/bat.h>

@@ -1,3 +1,5 @@
+/*	$OpenBSD: libsa.h,v 1.1.8.1 2001/10/31 03:01:20 nate Exp $	*/
+
 /*
  * libsa prototypes 
  */
