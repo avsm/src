@@ -1,4 +1,4 @@
-/*	$OpenBSD: radix.h,v 1.2.4.1 2001/03/12 15:44:13 jason Exp $	*/
+/*	$OpenBSD: radix.h,v 1.2.4.2 2001/03/21 18:52:57 jason Exp $	*/
 
 /*
  * Copyright (c) 1999 Dug Song.  All rights reserved.
