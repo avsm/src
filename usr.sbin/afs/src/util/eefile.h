@@ -1,6 +1,6 @@
-/*	$OpenBSD: mem.c,v 1.1.1.1 1998/09/14 21:53:24 art Exp $	*/
+/*	$OpenBSD: eefile.h,v 1.1 1999/04/30 01:59:16 art Exp $	*/
 /*
- * Copyright (c) 1995, 1996, 1997 Kungliga Tekniska Högskolan
+ * Copyright (c) 1995, 1996, 1997, 1998, 1999 Kungliga Tekniska Högskolan
  * (Royal Institute of Technology, Stockholm, Sweden).
  * All rights reserved.
  * 
@@ -37,53 +37,25 @@
  * SUCH DAMAGE.
  */
 
-/*
- *
- */
+/* $KTH: eefile.h,v 1.1 1999/02/27 11:02:39 assar Exp $ */
 
-#ifdef HAVE_CONFIG_H
-#include <config.h>
-RCSID("$KTH: mem.c,v 1.3 1998/02/22 11:22:17 assar Exp $");
-#endif
+#ifndef _EEFILE_
+#define _EEFILE_
 
 #include <stdio.h>
-#include "mem.h"
+#include <stdlib.h>
 
-/*
- * Like malloc, but write an error message if not succesful.
- */
+struct _fileblob {
+  FILE *stream;
+  char *curname;
+  char *newname;
+};
 
-void *
-emalloc(size_t sz)
-{
-     void *tmp = malloc(sz);
-     
-     if( tmp )
-	  return tmp;
-     else {
-	  fprintf(stderr, "malloc for %u bytes failed\n", sz);
-	  exit(1);
-     }
-}
+typedef struct _fileblob fileblob;
+void eefopen(const char *name, const char *mode, fileblob *f);
+void eefclose(fileblob *);
+size_t eefread (void *ptr, size_t size, size_t nitems, fileblob *stream);
+size_t eefwrite (const void *ptr, size_t size, size_t nitems,
+		 fileblob *stream);
 
-/*
- * Like realloc, but write an error message if not succesful.
- */
-
-void *
-erealloc (void *ptr, size_t sz)
-{
-     void *tmp;
-
-     if (ptr)
-	  tmp = realloc (ptr, sz);
-     else
-	  tmp = malloc (sz);
-
-     if (tmp)
-	  return tmp;
-     else {
-	  fprintf (stderr, "realloc for %u bytes failed\n", sz);
-	  exit (1);
-     }
-}
+#endif /* _EEFILE_ */
