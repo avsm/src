@@ -1,4 +1,4 @@
-#	$OpenBSD: Makefile.inc,v 1.2 2004/02/01 05:47:10 drahn Exp $
+#	$OpenBSD: Makefile.inc,v 1.2.2.1 2004/02/19 10:57:18 niklas Exp $
 #	$NetBSD: Makefile.inc,v 1.3 2001/11/20 00:29:19 chris Exp $
 
 SRCS+=	__main.c byte_swap_2.S byte_swap_4.S \
