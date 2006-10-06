@@ -1,4 +1,4 @@
-/*	$OpenBSD: monitor_fdpass.h,v 1.2 2002/03/26 03:24:01 stevesk Exp $	*/
+/* $OpenBSD: monitor_fdpass.h,v 1.2.20.1 2006/10/06 03:19:32 brad Exp $ */
 
 /*
  * Copyright 2002 Niels Provos <provos@citi.umich.edu>
