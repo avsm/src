@@ -15,7 +15,7 @@
  * WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-/* $OpenBSD: shuffle.c,v 1.4 2008/07/09 17:07:32 reyk Exp $ */
+/* $OpenBSD: shuffle.c,v 1.4.2.1 2008/07/23 17:59:55 brad Exp $ */
 
 #include <config.h>
 

@@ -15,7 +15,7 @@
  * WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-/* $OpenBSD: shuffle.h,v 1.1 2008/02/29 12:21:12 deraadt Exp $ */
+/* $OpenBSD: shuffle.h,v 1.1.4.1 2008/07/23 17:59:55 brad Exp $ */
 
 #ifndef ISC_SHUFFLE_H
 #define ISC_SHUFFLE_H 1
