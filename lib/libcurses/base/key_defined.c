@@ -1,7 +1,7 @@
-/*	$OpenBSD: m_adabind.c,v 1.1 1998/07/24 16:38:52 millert Exp $	*/
+/* $OpenBSD: key_defined.c,v 1.1 2010/01/12 23:22:05 nicm Exp $ */
 
 /****************************************************************************
- * Copyright (c) 1998 Free Software Foundation, Inc.                        *
+ * Copyright (c) 2003,2006 Free Software Foundation, Inc.                   *
  *                                                                          *
  * Permission is hereby granted, free of charge, to any person obtaining a  *
  * copy of this software and associated documentation files (the            *
@@ -29,39 +29,52 @@
  ****************************************************************************/
 
 /****************************************************************************
- *   Author: Juergen Pfeifer <Juergen.Pfeifer@T-Online.de> 1995,1997        *
+ *  Author: Thomas E. Dickey, 2003                                          *
  ****************************************************************************/
 
-/***************************************************************************
-* Module m_adabind.c                                                       *
-* Helper routines to ease the implementation of an Ada95 binding to        *
-* ncurses. For details and copyright of the binding see the ../Ada95       *
-* subdirectory.                                                            *
-***************************************************************************/
-#include "menu.priv.h"
+#include <curses.priv.h>
 
-MODULE_ID("$From: m_adabind.c,v 1.6 1998/02/11 12:13:50 tom Exp $")
+MODULE_ID("$Id: key_defined.c,v 1.6 2006/12/30 23:22:55 tom Exp $")
 
-/* Prototypes for the functions in this module */
-void  _nc_ada_normalize_menu_opts (int *opt);
-void  _nc_ada_normalize_item_opts (int *opt);
-ITEM* _nc_get_item(const MENU*, int);
-
-void _nc_ada_normalize_menu_opts (int *opt)
+static int
+find_definition(TRIES * tree, const char *str)
 {
-  *opt = ALL_MENU_OPTS & (*opt);
-}
+    TRIES *ptr;
+    int result = OK;
 
-void _nc_ada_normalize_item_opts (int *opt)
-{
-  *opt = ALL_ITEM_OPTS & (*opt);
-}
-
-ITEM* _nc_get_item(const MENU* menu, int idx) {
-  if (menu && menu->items && idx>=0 && (idx<menu->nitems))
-    {
-      return menu->items[idx];
+    if (str != 0 && *str != '\0') {
+	for (ptr = tree; ptr != 0; ptr = ptr->sibling) {
+	    if (UChar(*str) == UChar(ptr->ch)) {
+		if (str[1] == '\0' && ptr->child != 0) {
+		    result = ERR;
+		} else if ((result = find_definition(ptr->child, str + 1))
+			   == OK) {
+		    result = ptr->value;
+		} else if (str[1] == '\0') {
+		    result = ERR;
+		}
+	    }
+	    if (result != OK)
+		break;
+	}
     }
-  else
-    return (ITEM*)0;
+    return (result);
+}
+
+/*
+ * Returns the keycode associated with the given string.  If none is found,
+ * return OK.  If the string is only a prefix to other strings, return ERR.
+ * Otherwise, return the keycode's value (neither OK/ERR).
+ */
+NCURSES_EXPORT(int)
+key_defined(const char *str)
+{
+    int code = ERR;
+
+    T((T_CALLED("key_defined(%s)"), _nc_visbuf(str)));
+    if (SP != 0 && str != 0) {
+	code = find_definition(SP->_keytry, str);
+    }
+
+    returnCode(code);
 }
